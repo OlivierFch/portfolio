@@ -2,6 +2,8 @@
 
 Minimalist portfolio built with Next.js 15, Tailwind CSS v4, and shadcn/ui.
 
+🚧 In Progress... 🚧
+
 ## Getting started
 
 ```bash
