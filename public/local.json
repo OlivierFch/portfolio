@@ -75,7 +75,7 @@
         "slug": "url-shortener",
         "excerpt": "Building a short URL service with a focus on performance, scalability, and security.",
         "date": "Nov 2025",
-        "readTime": "7 min"
+        "readTime": "3 min"
       },
       {
         "title": "SmartWatch",
@@ -176,7 +176,7 @@
     "url-shortener": {
       "title": "Url Shortener",
       "date": "Nov 2025",
-      "readTime": "7 min",
+      "readTime": "3 min",
       "excerpt": "Building a short URL service with a focus on performance, scalability, and security.",
       "overview": "A URL shortening app that generates concise, unique short URLs for long web addresses. The app features an intuitive interface for creating and managing short links, along with robust analytics to track usage.",
       "tech": [
