@@ -1,0 +1,240 @@
+{
+  "metadata": {
+    "title": "Olivier Foucher - Full Stack AI Engineer",
+    "description": "Full Stack AI Engineer from France with 3 years of experience."
+  },
+  "nav": {
+    "sections": [
+      "intro",
+      "work",
+      "projects",
+      "connect"
+    ],
+    "navigateTo": "Navigate to {section}"
+  },
+  "intro": {
+    "label": "PORTFOLIO / 2026",
+    "firstName": "Olivier",
+    "lastName": "Foucher",
+    "bio": "Full Stack AI Engineer crafting intelligent solutions at the intersection of <highlight>design</highlight>, <highlight>technology</highlight>, and <highlight>user experience</highlight>.",
+    "availableForWork": "Available for work",
+    "location": "Based in France",
+    "currentlyLabel": "CURRENTLY",
+    "currentRole": "Full Stack Engineer",
+    "currentCompany": "@ Capgemini",
+    "currentPeriod": "2023 — Present",
+    "focusLabel": "FOCUS",
+    "skills": [
+      "AI/ML",
+      "TypeScript",
+      "React",
+      "Node.js"
+    ]
+  },
+  "work": {
+    "heading": "Selected Work",
+    "timeline": "2021 — 2026",
+    "jobs": [
+      {
+        "year": "2023",
+        "role": "Full Stack Engineer",
+        "company": "Capgemini",
+        "description": "Leading frontend architecture for developer tools and AI-powered features.",
+        "tech": [
+          "TypeScript",
+          "React",
+          "Node.js"
+        ]
+      },
+      {
+        "year": "2021",
+        "role": "Full Stack Engineer",
+        "company": "Audi Brussels",
+        "description": "Developed plant visualization dashboard features.",
+        "tech": [
+          "C#",
+          "Blazor",
+          "MS SQL Server"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "heading": "Projects",
+    "readMore": "Read more",
+    "posts": [
+      {
+        "title": "Mushroom",
+        "slug": "mushroom",
+        "excerpt": "Exploring how AI is reshaping the analysis and search of mushroom data in offline environments.",
+        "date": "May 2026",
+        "readTime": "9 min"
+      },
+      {
+        "title": "Url Shortener",
+        "slug": "url-shortener",
+        "excerpt": "Building a short URL service with a focus on performance, scalability, and security.",
+        "date": "Nov 2025",
+        "readTime": "7 min"
+      },
+      {
+        "title": "SmartWatch",
+        "slug": "smart-watch",
+        "excerpt": "Building a smart watch app with a focus on reducing time spent on tech watch or daily information consumption.",
+        "date": "Jun 2026",
+        "readTime": "8 min"
+      }
+    ]
+  },
+  "connect": {
+    "heading": "Let's Connect",
+    "description": "Always interested in new opportunities, collaborations, and conversations about technology and design.",
+    "email": "foucher.olivier@protonmail.com",
+    "elsewhereLabel": "ELSEWHERE",
+    "socials": [
+      {
+        "name": "GitHub",
+        "handle": "@OlivierFch",
+        "url": "https://github.com/OlivierFch"
+      },
+      {
+        "name": "LinkedIn",
+        "handle": "Olivier Foucher",
+        "url": "https://www.linkedin.com/in/olivier-foucher-7b63a6200"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 Olivier Foucher. All rights reserved.",
+    "toggleTheme": "Toggle theme"
+  },
+  "projectPage": {
+    "back": "Back",
+    "backToProjects": "Back to projects",
+    "backToHome": "Back to home",
+    "notFound": "Project not found.",
+    "read": "read",
+    "overviewLabel": "OVERVIEW",
+    "featureMediaLabel": "IN ACTION",
+    "highlightsLabel": "HIGHLIGHTS",
+    "learningsLabel": "WHAT I LEARNED",
+    "linksLabel": "LINKS",
+    "github": "GitHub",
+    "liveDemo": "Live demo"
+  },
+  "notFoundPage": {
+    "label": "ERROR / 404",
+    "heading": "Page not",
+    "headingAccent": "found.",
+    "description": "This page doesn't exist or may have been moved.",
+    "backToHome": "Back to home"
+  },
+  "projectsData": {
+    "mushroom": {
+      "title": "Mushroom",
+      "date": "May 2026",
+      "readTime": "9 min",
+      "excerpt": "Exploring how AI is reshaping the analysis and search of mushroom data in offline environments.",
+      "overview": "Mushroom is an AI-powered identification application designed to work entirely offline. Built for foragers and naturalists, it leverages on-device machine learning models to identify mushroom species from photos, providing safety information and habitat data without requiring an internet connection.",
+      "tech": [
+        "Typescript",
+        "React",
+        "Hono",
+        "PostgreSQL",
+        "Drizzle ORM",
+        "LlamaIndex",
+        "Docker",
+        "LM Studio",
+        "MinIO"
+      ],
+      "highlights": [
+        {
+          "title": "On-device inference",
+          "description": "A quantized local model runs directly on the device, enabling sub-second identification with no network dependency."
+        },
+        {
+          "title": "Offline-first database",
+          "description": "A curated PostgreSQL database of 2,000+ species includes edibility ratings, look-alike warnings, and seasonal availability."
+        },
+        {
+          "title": "Safety-first UX",
+          "description": "Every identification result surfaces a confidence score and a dedicated warning panel for dangerous look-alikes."
+        }
+      ],
+      "featureMedia": {
+        "type": "video",
+        "src": "/videos/mushroom-forest.mp4",
+        "caption": "Identification screen — confidence score and look-alike warnings displayed after on-device inference."
+      },
+      "learnings": [
+        "Building truly offline-first apps requires rethinking every dependency — from fonts to model weights.",
+        "Quantizing models is a careful trade-off: smaller files mean faster load times but lower accuracy on edge cases.",
+        "Mycological datasets are messy; curating and normalising species data took as long as writing the inference pipeline."
+      ],
+      "github": "https://github.com/OlivierFch/mushroom"
+    },
+    "url-shortener": {
+      "title": "Url Shortener",
+      "date": "Nov 2025",
+      "readTime": "7 min",
+      "excerpt": "Building a short URL service with a focus on performance, scalability, and security.",
+      "overview": "A URL shortening app that generates concise, unique short URLs for long web addresses. The app features an intuitive interface for creating and managing short links, along with robust analytics to track usage.",
+      "tech": [
+        "Typescript",
+        "Node.js",
+        "React",
+        "Express",
+        "Prisma",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "highlights": [
+        {
+          "title": "Idempotent redirects",
+          "description": "The service generates the same short URL for the same long URL, preventing duplicates and simplifying analytics."
+        },
+        {
+          "title": "Tracking of clicks and use",
+          "description": "Keep track by custom category of the number of clicks, the date of the last click, and the referrer for each short URL."
+        }
+      ],
+      "learnings": [
+        "Management of URL collisions is critical, I implemented a retry mechanism with exponential backoff to ensure unique short codes.",
+        "User input validation is a must to prevent malicious URLs and ensure the integrity of the service.",
+        "Implementing rate limiting and abuse detection early on is crucial to protect against spam and DDoS attacks."
+      ],
+      "github": "https://github.com/OlivierFch/url-shortener"
+    },
+    "smart-watch": {
+      "title": "SmartWatch",
+      "date": "Jun 2026",
+      "readTime": "8 min",
+      "excerpt": "Building a smart watch app with a focus on reducing time spent on tech watch or daily information consumption.",
+      "overview": "A smartwatch app designed to distill the day's most important tech news and updates into a quick, glanceable format. The app uses an agentic architecture to pull in data from multiple sources, summarise it with AI, and present it in a way that respects the constraints of a small screen and short attention span.",
+      "tech": [
+        "Typescript",
+        "Fastify",
+        "Mastra",
+        "React Email",
+        "Resend",
+        "Prisma",
+        "PostgreSQL"
+      ],
+      "highlights": [
+        {
+          "title": "Reducing tech watch fatigue",
+          "description": "Designing a watch app that surfaces only the most critical updates and insights, helping users stay informed without feeling overwhelmed."
+        },
+        {
+          "title": "Your daily newsletter",
+          "description": "Curate a selection of the day's most important updates and insights into a concise email digest."
+        }
+      ],
+      "learnings": [
+        "Creating a seamless user experience on a small screen requires a deep understanding of user behavior and intent.",
+        "Agentic architectures can help manage the complexity of wearable app development, but they introduce new challenges around state management and error handling.",
+        "Balancing information density with readability is key to keeping users engaged without overwhelming them."
+      ]
+    }
+  }
+}
