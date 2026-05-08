@@ -1,0 +1,6 @@
+allowBuilds:
+  - "@parcel/watcher"
+  - "@swc/core"
+  - "@tailwindcss/oxide"
+  - sharp
+  - unrs-resolver
