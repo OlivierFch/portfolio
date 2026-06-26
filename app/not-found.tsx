@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
+import { ArrowLeft } from "lucide-react";
 
 export default async function NotFound() {
   const t = await getTranslations("notFoundPage");
@@ -25,14 +26,7 @@ export default async function NotFound() {
             href="/"
             className="group inline-flex items-center gap-3 text-foreground hover:text-muted-foreground transition-colors duration-300"
           >
-            <svg
-              className="w-4 h-4 transform group-hover:-translate-x-1 transition-transform duration-300"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16l-4-4m0 0l4-4m-4 4h18" />
-            </svg>
+            <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform duration-300" />
             <span>{t("backToHome")}</span>
           </Link>
         </div>

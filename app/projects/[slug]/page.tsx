@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getMessages, getTranslations } from "next-intl/server";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Tag } from "@/components/ui/tag";
 import { SiteFooter } from "@/components/layout/site-footer";
 
@@ -56,9 +57,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
             href="/#projects"
             className="lg:hidden inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
           >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16l-4-4m0 0l4-4m-4 4h18" />
-            </svg>
+            <ArrowLeft className="w-4 h-4" />
             {t("back")}
           </Link>
 
@@ -158,14 +157,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                   className="group flex items-center gap-2 text-foreground hover:text-muted-foreground transition-colors duration-300"
                 >
                   <span>{t("github")}</span>
-                  <svg
-                    className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
                 </Link>
               )}
               {project.demo && (
@@ -176,14 +168,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                   className="group flex items-center gap-2 text-foreground hover:text-muted-foreground transition-colors duration-300"
                 >
                   <span>{t("liveDemo")}</span>
-                  <svg
-                    className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
                 </Link>
               )}
             </div>
